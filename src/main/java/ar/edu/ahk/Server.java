@@ -96,7 +96,7 @@ public class Server implements MqttCallback {
     }
 
     // se llama cuando enviaste un mensaje correctamente
-    public void deliveryComplete(IMqttDeliveryToken arg0) {
+     public void deliveryComplete(IMqttDeliveryToken arg0) {
     }
 
     public void messageArrived(String topic, MqttMessage message) {
